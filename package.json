@@ -1,0 +1,28 @@
+{
+  "name": "awesome-job-dude",
+  "version": "0.0.0",
+  "description": "awesome-job-dude ================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/securingsincity/awesome-job-dude.git"
+  },
+  "bin": {
+    "awesome": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/securingsincity/awesome-job-dude/issues"
+  },
+  "homepage": "https://github.com/securingsincity/awesome-job-dude",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "figlet": "^1.1.0",
+    "node-figlet": "0.0.0",
+    "say": "^0.6.0"
+  }
+}
