@@ -22,5 +22,9 @@
     {
       "voiceText":"That's a good crop of beef",
       "text": "BEEF"
+    },
+    {
+      "voiceText":"You're the man now dog",
+      "text": "You da man now dog"
     }
 ]
