@@ -17,7 +17,7 @@ figlet(finalText.text, function(err, data) {
 });
 
 if (finalText.text === 'You\'re the best') {
-	exec('open https://www.youtube.com/watch?v=oomCIXGzsR0');
+	exec('open ' + finalText.link);
 } else {
 	say.speak('Alex',finalText.voiceText);
 }
