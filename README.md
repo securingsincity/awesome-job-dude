@@ -22,7 +22,9 @@ npm install -g awesome-job-dude
     -k, --killinit  Killing it
     -a, --awesome   Awesome
     --hang          Hang In there
+    --karate        The Karate Kid
     -b, --beef      BEEF
     -o, --otmop     On The Might Of Princes
     -c, --crushit   Crushing it
+
 ```
