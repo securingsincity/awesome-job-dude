@@ -4,6 +4,7 @@ var say = require('say'),
  _ = require('lodash'),
  text = require('./text.json'),
  program = require('commander'),
+ exec = require('child_process').exec,
  figlet = require('figlet');
 var pjson = require('./package.json');
 
@@ -13,13 +14,13 @@ var pjson = require('./package.json');
     .option('-k, --killinit', 'Killing it')
     .option('-a, --awesome', 'Awesome')
     .option('--hang', 'Hang In there')
+    .option('--karate', 'The Karate Kid')
     .option('-b, --beef', 'BEEF')
     .option('-o, --otmop', 'On The Might Of Princes')
     .option('-c, --crushit', 'Crushing it')
     .parse(process.argv);
 
   var finalText = randomFromList(text);
-
   if (program.ytmnd) finalText  = _.where(text, { 'key': "ytmnd" })[0];
   if (program.awesome) finalText  = _.where(text, { 'key': "awesome" })[0];
   if (program.hang) finalText  = _.where(text, { 'key': "hang" })[0];
@@ -27,6 +28,7 @@ var pjson = require('./package.json');
   if (program.beef) finalText  = _.where(text, { 'key': "beef" })[0];
   if (program.otmop) finalText  = _.where(text, { 'key': "otmop" })[0];
   if (program.crushit) finalText  = _.where(text, { 'key': "crushingit" })[0];
+  if (program.karate) finalText  = _.where(text, { 'key': "karatekid" })[0];
 
   execute(finalText);
 
@@ -39,8 +41,12 @@ var pjson = require('./package.json');
         }
         console.log(chalk.bgGreen(data));
     });
-
-    say.speak('Alex',finalText.voiceText); 
+    if (finalText.link) {
+      exec('open ' + finalText.link);
+    } else {
+      say.speak('Alex',finalText.voiceText);   
+    }
+    
   }
 
   function randomFromList(list) {

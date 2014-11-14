@@ -33,5 +33,11 @@
       "voiceText":"You're the man now dog",
       "text": "You da man now dog",
       "key" : "ytmnd"
+
+    },
+    {
+      "link":"http://youtu.be/em30XL9c5NQ?t=24s",
+      "text": "You're the best",
+      "key" : "karatekid"
     }
 ]
