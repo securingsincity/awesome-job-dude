@@ -1,30 +1,37 @@
 [
     {
       "voiceText":"YOU'RE AWESOME DUDE",
-      "text": "Awesome!!"
+      "text": "Awesome!!",
+      "key" : "awesome"
     },
     {
       "voiceText":"YOU'RE CRUSHING IT",
-      "text": "CRUSHING IT!!"
+      "text": "CRUSHING IT!!",
+      "key" : "crushingit"
     },
     {
       "voiceText":"hang in there kitty",
-      "text": "HANG IN THERE!!"
+      "text": "HANG IN THERE!!",
+      "key" : "hang"
     },
     {
       "voiceText":"keep Killing it",
-      "text": "KILLIN IT"
+      "text": "KILLIN IT",
+      "key" : "killinit"
     },
     {
       "voiceText":"I'll scream it until your ears bleed you'll always have a friend in me",
-      "text": "KILLIN IT"
+      "text": "KILLIN IT",
+      "key" : "otmop"
     },
     {
       "voiceText":"That's a good crop of beef",
-      "text": "BEEF"
+      "text": "BEEF",
+      "key" : "beef"
     },
     {
       "voiceText":"You're the man now dog",
-      "text": "You da man now dog"
+      "text": "You da man now dog",
+      "key" : "ytmnd"
     }
 ]
