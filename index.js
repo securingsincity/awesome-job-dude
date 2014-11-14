@@ -18,6 +18,7 @@ var pjson = require('./package.json');
     .option('-b, --beef', 'BEEF')
     .option('-o, --otmop', 'On The Might Of Princes')
     .option('-c, --crushit', 'Crushing it')
+    .option('-s, --stoked', 'STOKED')
     .parse(process.argv);
 
   var finalText = randomFromList(text);
@@ -29,6 +30,7 @@ var pjson = require('./package.json');
   if (program.otmop) finalText  = _.where(text, { 'key': "otmop" })[0];
   if (program.crushit) finalText  = _.where(text, { 'key': "crushingit" })[0];
   if (program.karate) finalText  = _.where(text, { 'key': "karatekid" })[0];
+  if (program.stoked) finalText  = _.where(text, { 'key': "stoked" })[0];
 
   execute(finalText);
 

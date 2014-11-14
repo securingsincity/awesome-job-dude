@@ -26,5 +26,6 @@ npm install -g awesome-job-dude
     -b, --beef      BEEF
     -o, --otmop     On The Might Of Princes
     -c, --crushit   Crushing it
+    -s, --stoked   Stoked
 
 ```

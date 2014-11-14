@@ -15,6 +15,11 @@
       "key" : "hang"
     },
     {
+      "voiceText":"I'm so stoked on this",
+      "text": "STOKED",
+      "key" : "stoked"
+    },
+    {
       "voiceText":"keep Killing it",
       "text": "KILLIN IT",
       "key" : "killinit"
