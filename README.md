@@ -29,3 +29,6 @@ npm install -g awesome-job-dude
     -s, --stoked   Stoked
 
 ```
+#Adding AWESOME to your post-commit hook
+
+execute `awesome-commit` in the directory you want to update

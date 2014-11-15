@@ -1,6 +1,6 @@
 {
   "name": "awesome-job-dude",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "a high five from your command line",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "https://github.com/securingsincity/awesome-job-dude.git"
   },
   "bin": {
-    "awesome": "./index.js"
+    "awesome": "./index.js",
+    "awesome-commit": "./add-post-commit.sh"
   },
   "author": "",
   "license": "ISC",
