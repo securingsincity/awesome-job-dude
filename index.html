@@ -1,1 +1,91 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Awesome! - A high five from your command line</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="bower_components/jquery/dist/jquery.min.js" ></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"> </script>
+  <style>
+    .container {
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Awesome</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#description">Description</a></li>
+            <li><a href="#install">Install</span></a></li>
+            <li><a href="#usage">Usage</a></li>
+          
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <h1>Awesome by James Hrisho</h1>
+      <p class="view"><a href="https://github.com/securingsincity/backbone-react-ui">View the Project on GitHub <small>securingsincity/backbone-react-ui</small></a></p>
+      <ul>
+          <li><a href="https://github.com/securingsincity/backbone-react-ui/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/securingsincity/backbone-react-ui/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/securingsincity/backbone-react-ui">View On <strong>GitHub</strong></a></li>
+        </ul>
+      <div id="description" class="row">
+      <h2>About</h2>
+        <p>When you are developing code, often times you want to celebrate those small wins.  One day after pushing a large feature and feeling accomplished,  I typed "awesome" into my terminal fully expecting it to respond.  When it didn't I took matters into my own hands and built a tool so it would in the future.</p>
+
+        <p>Awesome-Job-Dude is a command line tool that gives you a boost of encouragement when executed.</p>
+
+        <p>Simply type <pre>awesome</pre> into your terminal and you are greeted by a random inspirational piece of ascii art and a voice of encouragement. You could be asking "But James what about if I want to hear and see a specific phrase over and over?" to which I would reply "Perhaps your need for hearing the same encouraging words repeated by a robot over and over again could be better solved in a cult." However, I also provide arguments you can provide that will let you pull up your favorite quotes as well.</p>
+
+        <p>Here's a peek at what it looks like.</p>
+        <img src="http://jameshrisho.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-11-at-7.36.14-PM-300x230.png" alt="">
+      </div>
+      <div id="install" class="row">
+      <h2>Install</h2>
+        <pre>brew install sox</br>
+npm install -g awesome-job-dude</pre>
+
+      </div>
+      <div id="usage" class="row">
+      <h2>Usage</h2>
+      <p>After installation from any location in your terminal you can simply run <pre>awesome</pre> and it will execute.</p>
+      <p>For more advanced usage here are some of the commands you can use</p>
+        <pre><code>  Usage: awesome [options]
+
+          Options:
+
+            -h, --help      output usage information
+            -V, --version   output the version number
+            -y, --ytmnd     You the man now dawg
+            -k, --killinit  Killing it
+            -a, --awesome   Awesome
+            --hang          Hang In there
+            --karate        The Karate Kid
+            -b, --beef      BEEF
+            -o, --otmop     On The Might Of Princes
+            -c, --crushit   Crushing it
+            -s, --stoked   Stoked
+
+        </code></pre>
+      </div>
+      <h4>Adding a post commit hook</h4>
+      <p>execute <pre>awesome-commit</pre> in the directory you want to add the post commit hook to.</p>
+    </div>
+  
+</body>
+</html>
